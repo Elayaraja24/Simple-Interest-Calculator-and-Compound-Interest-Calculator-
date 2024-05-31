@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="UTF-8">
+        <meta viewport charset="width= device-width">
+        <title>COMPOUND INTEREST</title>
+        <link rel="stylesheet" a href="./CI.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Compound Interest</h3>
+            <div class="input-wrapper">
+                <div class="wrapper">
+                    <label for="principal">Principal (&#8377;) :</label>
+                    <input type="number" id="principal" value="1000">
+                
+            </div>
+                <div class="wrapper">
+                    <label for="rate">Rate :</label>
+                    <input type="number" id="rate" value="5">
+                
+            </div>
+        </div>
+        <label for="time">Duration in Year :</label>
+
+            <div class="input-wrapper">
+            <div class="wrapper">
+                <input type="number" id="time" value="1" >
+            </div>
+            
+
+            
+            <button type="button" onclick="calculateInterest()" >Calculate</button>
+            <div class="calculations">
+
+            <p>Compound Interest  :<span id="result"></span></p>
+            </div>
+           <h4> <a href="./SI.html">Simple Interest</a></h4>
+            
+
+            </div>
+            <script src="./CI.js"></script>
+            
+            </body>
+</html>

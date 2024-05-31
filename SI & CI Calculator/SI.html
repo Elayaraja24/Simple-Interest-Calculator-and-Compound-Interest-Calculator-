@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta name="viewport">
+        <meta charset="UTF-8" width="device-width">
+        <link rel="stylesheet" a href="./SI.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3>Simple Interest</h3>
+            <div class="input-wrapper">
+            <div class="wrapper">
+                <label for="principal">Principal(&#8377;) :</label>
+                <input type="number" id="principal" value="1000">
+            </div>
+            <div class="wrapper">
+                <label for="rate">Rate :</label>
+                <input type="number" id="rate" value="5">
+            </div>
+            </div>
+            <label for="time">Time :</label>
+
+            <div class="time-wrapper">
+            <div class="wrapper">
+                <input type="number" id="time" value="1" >
+                <select name="duration" id="duration">
+                    <option value="year">Year</option>
+                    <option value="month">Month</option>
+                </select>
+            </div>
+            <button id="calculate-btn" >Calculate</button>
+            <div id="result"></div>
+            </div>
+            <h4> <a href="./CI.html">Compound Interest</a></h4>
+            <script src ="SI.js"></script>
+        </body>
+</html>
